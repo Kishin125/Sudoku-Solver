@@ -13,7 +13,7 @@ def printGrid(grid):
         for y in range(size):
             print(grid[x][y], end=" ")
         print()
-
+# check to see if guess is valid, if valid then check row/col and 3x3 for repeats
 def check_Valid(grid, row, col, num):
     for x in range(size):
         if grid[row][x] == num:
